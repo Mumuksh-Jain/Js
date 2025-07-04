@@ -4,7 +4,7 @@ var accountpass="12345"
 accountcity="jaipur"
 console.log(accountId);
 accountmail="ha.aj"
-accountpass="212121"
+accountpass="2121212"
 accountcity="banaras"
 console.table([accountId, accountmail, accountpass, accountcity])
 //do not use var

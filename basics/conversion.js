@@ -17,6 +17,7 @@ let trr=Boolean(tr)
  // these null and undefined are not used 
  console.log("2"==2);
  
- 
+ //stack is primitive (a copy of the original is made)
+ // heap is non primitive ( a reference is passed onto heap instead of copying)
 
 

@@ -8,6 +8,7 @@ const user =
         
     }
 }
+//  {} = global execution context
 // this is an  empty object in global scope 
 // window is the global object in browser
 // user.welcomeMessage()

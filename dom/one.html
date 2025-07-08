@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8"> <!--meta has an attributr-->
     <title>DOM learning</title><!--text node-->
-    <style>
-        .bg-black{
-            background-color: #212121 ;
-            color:aqua ;
-        }
-    </style>
     </head>
 
-<body class="bg-black">
-    <div >
-        <h1  id="title" class="heading">DOM learning <span style="display:none;" >test text</span></h1><!--atttribute and text node-->
-        <h1> Lorem ipsum dolor sit.</h1>
-        <h2>Lorem, ipsum dolor.</h2>
-        <p>Lorem ipsum dolor sit amet</p><!--text node-->
-        <ul>
-            <li class=""item" >one</li>
-            <li class=""item">two</li>
-            <li class=""item">three</li>
-        </ul>
+<body >
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
     </div>
 </body>
+<script>
+    const parent=document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[2].innerHTML);
+    // for(let i=0;i<parent.children.length;i++)
+    //     console.log(parent.children[i].innerHTML);
+    // parent.children[1].style.color="orange"
+    // console.log(parent.firstElementChild);
+    const dayOne=document.querySelector('.day');
+    console.log(dayOne);
+    console.log(dayOne.parentElement);
+    console.log(dayOne.nextElementSibling);
+
+    console.log("NODES :", parent.childNodes );    
+</script>
 </html>

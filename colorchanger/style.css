@@ -1,0 +1,26 @@
+
+span{
+    height: 100px;
+    width :100px;
+    border:solid black 3px;
+    display:inline-block;
+    display:flexbox;
+    align-items: center;
+}
+
+#grey
+{
+    background-color: grey;
+}
+#white
+{
+    background-color: white;
+}
+#blue
+{
+    background-color: blue;
+}
+#yellow
+{
+    background-color: yellow;
+}
